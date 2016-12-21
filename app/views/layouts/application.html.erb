@@ -24,7 +24,7 @@
           <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMatch</a>  
           
           Rails Way -->
-          <%= link_to "/", class: "navbar-brand" do %>
+          <%= link_to root_path, class: "navbar-brand" do %>
           <i class="fa fa-group"></i>
           DevMatch
           <% end %>
@@ -39,7 +39,7 @@
             <li><a href="/about">About</a></li>  
             
             Rails Way -->
-            <li><%= link_to "About", "/about" %></li>
+            <li><%= link_to "About", about_path %></li>
             
             
           </ul>
